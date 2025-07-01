@@ -12,7 +12,7 @@ import SearchFilter from "./comonents/SearchFilter"
 import ProductTable from "./comonents/ProductTable"
 import { useSearch } from "./hooks/useSearch"
 
-const API_URL = "http://localhost:5000/api/todos"
+const API_URL = "https://todo-backend-xra6.onrender.com/api/todos"
 
 export default function App() {
   const { todos, loading, error, success, addProduct, updateProduct, deleteProduct, setError, setSuccess } =
