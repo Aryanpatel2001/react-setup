@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import axios from "axios"
 
-const API_URL = "http://localhost:5000/api/todos"
+const API_URL = "https://todo-backend-xra6.onrender.com/api/todos"
 
 export function useProducts() {
   const [todos, setTodos] = useState([])
